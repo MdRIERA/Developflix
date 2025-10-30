@@ -16,3 +16,35 @@ h2 {
 }
 
 
+#genero-28,
+#genero-53,
+#genero-12 {
+  display: flex;
+  gap: 20px;
+  overflow-x: auto;
+  padding: 10px;
+}
+
+
+#genero-28 > div,
+#genero-53 > div,
+#genero-12 > div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 150px;
+}
+
+#genero-28 img,
+#genero-53 img,
+#genero-12 img {
+  width: 150px;
+  border-radius: 8px;
+}
+
+
+#genero-28 p,
+#genero-53 p,
+#genero-12 p {
+  text-align: center;
+}
